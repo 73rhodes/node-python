@@ -3,7 +3,7 @@
   "name": "python",
   "main": "./lib/python.js",
   "description": "Interact with python child process using callbacks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/darrenderidder/node-python",
   "repository": {
     "type": "git",
