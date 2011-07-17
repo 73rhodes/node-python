@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var Python = require('./lib/python').Python;
+var Python = require('../lib/python').Python;
 var python = new Python();
 var mycallback = function(err, data) {
    if (err) {
