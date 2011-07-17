@@ -1,8 +1,12 @@
 #!/usr/bin/env node
-var Python = require('./python').Python;
+var Python = require('./lib/python').Python;
 var python = new Python();
-var mycallback = function(data) {
-   console.log("Callback function got : " + data);
+var mycallback = function(err, data) {
+   if (err) {
+     console.error(err);
+   } else {
+     console.log("Callback function got : " + data);
+   }
 };
 process.stdin.resume();
 process.stdin.setEncoding('utf8');

@@ -1,7 +1,7 @@
 {
   "author": "Darren DeRidder <drderidder@gmail.com> (https://github.com/darrenderidder)",
   "name": "python",
-  "main": "./python.js",
+  "main": "./lib/python.js",
   "description": "Interact with python child process using callbacks",
   "version": "0.0.0",
   "homepage": "https://github.com/darrenderidder/node-python",
