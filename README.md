@@ -15,7 +15,7 @@ The module is in early beta; contributors are welcome and appreciated.
 
 Example
 ---
-This example starts a python child process, reads stdin for python commands, pipes them through to the python shell and runs the callback method with the resulting python output. State is preserved in the python shell between calls.
+This example starts a python child process, reads stdin for python commands, pipes them through to the python shell and runs the callback method with the resulting output. State is preserved in the shell between calls.
 
     // ------
     // app.js
