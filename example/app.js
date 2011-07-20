@@ -5,7 +5,7 @@ var mycallback = function(err, data) {
    if (err) {
      console.error(err);
    } else {
-     console.log("Callback function got : " + data);
+     process.stdout.write("Callback function got : " + data);
    }
 };
 process.stdin.resume();
