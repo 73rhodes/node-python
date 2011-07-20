@@ -15,16 +15,23 @@ The module is in early beta; contributors are welcome and appreciated.
 
 Example
 ---
+This example starts a python child process, reads stdin for python commands, pipes them through to the python shell and runs the callback method with the resulting python output. State is preserved in the python shell between calls.
 
-    // require the python module
+    // ------
+    // app.js
+    // ------
     var Python=require('python').Python;
     
     // create an instance of the python shell
     var python = new Python();
     
     // a callback to handle the response
-    var mycallback = function(data) {
-       console.log("Callback function got : " + data);
+    var mycallback = function(err, data) {
+       if (err) {
+         console.error(err);
+       } else {
+         console.log("Callback function got : " + data);
+       }
     };
     
     // to test, read and execute commands from stdin
