@@ -20,7 +20,7 @@ This example starts a python child process, reads stdin for python commands, pip
     // ------
     // app.js
     // ------
-    var python=require('python').python;
+    var python=require('python').shell;
     
     // a callback to handle the response
     var mycallback = function(err, data) {
