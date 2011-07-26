@@ -20,10 +20,7 @@ This example starts a python child process, reads stdin for python commands, pip
     // ------
     // app.js
     // ------
-    var Python=require('python').Python;
-    
-    // create an instance of the python shell
-    var python = new Python();
+    var python=require('python').python;
     
     // a callback to handle the response
     var mycallback = function(err, data) {
@@ -38,6 +35,6 @@ This example starts a python child process, reads stdin for python commands, pip
     process.stdin.resume();
     process.stdin.setEncoding('utf8');
     process.stdin.on('data', function(chunk) {
-       python.cmd(chunk, mycallback);
+       python(chunk, mycallback);
     });
 
