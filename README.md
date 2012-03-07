@@ -38,3 +38,6 @@ This example starts a python child process, reads stdin for python commands, pip
        python(chunk, mycallback);
     });
 
+License
+---
+DWTFYW License ;-)
