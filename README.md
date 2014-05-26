@@ -42,4 +42,4 @@ process.stdin.on('data', function(chunk) {
 
 License
 -------
-DWTFYW License ;-)
+ISC
