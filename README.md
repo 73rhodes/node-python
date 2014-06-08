@@ -3,15 +3,9 @@ node-python
 
 Communicate with a long-running Python child process from NodeJS.
 
-Authors
--------
-* Darren DeRidder
-
 About
 -----
-A simple wrapper for NodeJS to interact programatically with the Python shell. Enables the use of Python-based tools from Node.
-
-The module is in early beta; contributors are welcome and appreciated.
+A super-simple wrapper for NodeJS to interact programatically with the Python shell. Enables the use of Python-based tools from Node.
 
 Example
 -------
