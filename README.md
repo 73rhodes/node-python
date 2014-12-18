@@ -3,6 +3,10 @@ node-python
 
 Communicate with a long-running Python child process from NodeJS.
 
+[![NPM Stats](https://nodei.co/npm/python.png?downloads=true&stars=true)](https://npmjs.org/package/python)
+
+![NPM Downloads](https://nodei.co/npm-dl/python.png?months=9)
+
 About
 -----
 A super-simple wrapper for NodeJS to interact programatically with the Python shell. Enables the use of Python-based tools from Node.
