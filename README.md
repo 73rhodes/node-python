@@ -3,9 +3,15 @@ node-python
 
 A super-simple wrapper for NodeJS to interact programatically with the Python shell. Enables the use of Python-based tools from Node.
 
+Installation
+------------
+`npm install python`
+
 [![NPM Stats](https://nodei.co/npm/python.png?downloads=true&stars=true)](https://npmjs.org/package/python)
 
 ![NPM Downloads](https://nodei.co/npm-dl/python.png?months=9)
+
+<img src="http://npm.packagequality.com/badge/python.png"/>
 
 Example
 -------
