@@ -9,5 +9,8 @@
     "type": "git",
     "url": "git://github.com/darrenderidder/node-python.git"
   },
-  "engines": { "node": ">= 0.4.1" }
+  "engines": { "node": ">= 0.4.1" },
+  "scripts": {
+    "test": "node ./test/python.test.js"
+  }
 }
