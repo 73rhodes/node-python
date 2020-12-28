@@ -1,5 +1,6 @@
 os: linux
 dist: focal
 language: node_js
+before_script: python --version
 node_js:
   - "14"
