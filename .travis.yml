@@ -1,7 +1,7 @@
 os: linux
 dist:
-  - xenial  # python --version --> Python 
-  #- focal  # python --version --> Python 3.8.5 and the test will hang until Travis times out
+  - xenial  # python --version --> Python 2.7.12 so the tests pass
+  #- focal  # python --version --> Python 3.8.5 and the tests will hang until Travis times out
 language: node_js
 before_script: python --version
 node_js:
