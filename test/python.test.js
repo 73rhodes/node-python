@@ -5,11 +5,11 @@ var testCounter = 0;
 var runTests = function() {
 
    // Run a couple commands in series
-   python('print "Hello World!"', function(err, data) {
+   python('print("Hello World!")', function(err, data) {
       assert.equal('Hello World!\n', data);
       console.log('test 1 ok!');
       completeTest();
-      python('print "Goodbye, Cruel World!"', function (err, data) {
+      python('print("Goodbye, Cruel World!")', function (err, data) {
         assert.equal('Goodbye, Cruel World!\n', data);
         console.log('test 2 ok!');
         python('quit()');
@@ -18,7 +18,7 @@ var runTests = function() {
    });
 
    // Run one in parallel with the first two
-   python('print "Asynch"', function (err, data) {
+   python('print("Asynch")', function (err, data) {
      assert.equal('Asynch\n', data);
      console.log('test 3 ok!');
      completeTest();
